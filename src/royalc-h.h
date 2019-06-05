@@ -9,7 +9,13 @@
 extern "C" {
 #endif
 
+typedef enum __royalc_type {
+	ROYALC_TYPE_PROGRAM
+} royalc_t;
 
+typedef struct __royalc_node {
+	royalc_t type;
+} royalc_node_t;
 
 #ifdef __cplusplus
 }
