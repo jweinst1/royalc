@@ -1,0 +1,4 @@
+#ifndef ROYAL_C_LIB_HEADER
+#define ROYAL_C_LIB_HEADER
+
+#endif // ROYAL_C_LIB_HEADER
